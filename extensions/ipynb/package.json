@@ -67,7 +67,7 @@
 		"detect-indent": "^6.0.0"
 	},
 	"devDependencies": {
-		"@jupyterlab/coreutils": "^3.1.0"
+		"@jupyterlab/coreutils": "^6.0.0"
 	},
   "repository": {
     "type": "git",
