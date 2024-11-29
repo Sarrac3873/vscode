@@ -205,7 +205,7 @@
     "vinyl": "^2.0.0",
     "vinyl-fs": "^3.0.0",
     "vscode-debugprotocol": "1.48.0",
-    "vscode-nls-dev": "^3.3.1",
+    "vscode-nls-dev": "^4.0.4",
     "vscode-telemetry-extractor": "^1.8.0",
     "webpack": "^5.42.0",
     "webpack-cli": "^4.7.2",
