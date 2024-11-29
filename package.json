@@ -203,7 +203,7 @@
     "underscore": "^1.12.1",
     "util": "^0.12.4",
     "vinyl": "^2.0.0",
-    "vinyl-fs": "^3.0.0",
+    "vinyl-fs": "^4.0.0",
     "vscode-debugprotocol": "1.48.0",
     "vscode-nls-dev": "^3.3.1",
     "vscode-telemetry-extractor": "^1.8.0",
