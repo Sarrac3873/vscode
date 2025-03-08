@@ -30,13 +30,6 @@ asynckit@^0.4.0:
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
   integrity sha1-x57Zf380y48robyXkLzDZkdLS3k=
 
-axios@^0.21.1:
-  version "0.21.1"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
-  integrity sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==
-  dependencies:
-    follow-redirects "^1.10.0"
-
 combined-stream@^1.0.8:
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/combined-stream/-/combined-stream-1.0.8.tgz#c3d45a8b34fd730631a110a8a2520682b31d5a7f"
@@ -48,11 +41,6 @@ delayed-stream@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/delayed-stream/-/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
   integrity sha1-3zrhmayt+31ECqrgsp4icrJOxhk=
-
-follow-redirects@^1.10.0:
-  version "1.13.3"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.3.tgz#e5598ad50174c1bc4e872301e82ac2cd97f90267"
-  integrity sha512-DUgl6+HDzB0iEptNQEXLx/KhTmDb8tZUHSeLqpnjpknR70H0nC2t9N73BK6fN4hOvJ84pKlIQVQ4k5FFlBedKA==
 
 form-data@^3.0.0:
   version "3.0.0"
@@ -80,12 +68,10 @@ node-fetch@2.6.1:
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
   integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
 
-tas-client@0.1.21:
-  version "0.1.21"
-  resolved "https://registry.yarnpkg.com/tas-client/-/tas-client-0.1.21.tgz#62275d5f75266eaae408f7463364748cb92f220d"
-  integrity sha512-7UuIwOXarCYoCTrQHY5n7M+63XuwMC0sVUdbPQzxqDB9wMjIW0JF39dnp3yoJnxr4jJUVhPtvkkXZbAD0BxCcA==
-  dependencies:
-    axios "^0.21.1"
+tas-client@0.2.33:
+  version "0.2.33"
+  resolved "https://registry.yarnpkg.com/tas-client/-/tas-client-0.2.33.tgz#451bf114a8a64748030ce4068ab7d079958402e6"
+  integrity sha512-V+uqV66BOQnWxvI6HjDnE4VkInmYZUQ4dgB7gzaDyFyFSK1i1nF/j7DpS9UbQAgV9NaF1XpcyuavnM1qOeiEIg==
 
 uuid@8.1.0:
   version "8.1.0"
@@ -102,9 +88,9 @@ vscode-nls@^5.0.0:
   resolved "https://registry.yarnpkg.com/vscode-nls/-/vscode-nls-5.0.0.tgz#99f0da0bd9ea7cda44e565a74c54b1f2bc257840"
   integrity sha512-u0Lw+IYlgbEJFF6/qAqG2d1jQmJl0eyAGJHoAJqr2HT4M2BNuQYSEiSE75f52pXHSJm8AlTjnLLbBFPrdz2hpA==
 
-vscode-tas-client@^0.1.22:
-  version "0.1.22"
-  resolved "https://registry.yarnpkg.com/vscode-tas-client/-/vscode-tas-client-0.1.22.tgz#2dd674b21a94ff4e97db2b6545d9efda8b5f07c3"
-  integrity sha512-1sYH73nhiSRVQgfZkLQNJW7VzhKM9qNbCe8QyXgiKkLhH4GflDXRPAK4yy4P41jUgula+Fc9G7i5imj1dlKfaw==
+vscode-tas-client@^0.1.84:
+  version "0.1.84"
+  resolved "https://registry.yarnpkg.com/vscode-tas-client/-/vscode-tas-client-0.1.84.tgz#906bdcfd8c9e1dc04321d6bc0335184f9119968e"
+  integrity sha512-rUTrUopV+70hvx1hW5ebdw1nd6djxubkLvVxjGdyD/r5v/wcVF41LIfiAtbm5qLZDtQdsMH1IaCuDoluoIa88w==
   dependencies:
-    tas-client "0.1.21"
+    tas-client "0.2.33"
